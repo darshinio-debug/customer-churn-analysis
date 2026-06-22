@@ -35,13 +35,8 @@ customer-churn-analysis/
 ├── README.md                          ← You are here
 │
 ├── /sql/
-│   ├── 01_overall_churn_rate.sql      ← Churn rate KPI
-│   ├── 02_churn_by_contract.sql       ← Contract type analysis
-│   ├── 03_avg_charges_comparison.sql  ← Churned vs retained charges
-│   ├── 04_revenue_lost.sql            ← Revenue impact quantification
-│   ├── 05_churn_by_payment.sql        ← Payment method analysis
-│   ├── 06_high_risk_segmentation.sql  ← NTILE window function risk model
-│   └── 07_senior_citizen_analysis.sql ← Demographic churn analysis
+│   ├── 01_overall_churn_rate.sql      ← SQL part
+│ 
 │
 ├── /data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv   ← Raw dataset
@@ -81,7 +76,7 @@ Executive landing page. Designed for a manager to understand the situation in un
 
 **Visuals:** KPI Cards (Churn Rate, Total Churned, Revenue Lost, Avg Tenure) · Donut Chart · Churn by Contract Bar Chart · Churn by Internet Service 100% Stacked Bar · Slicers (Contract, Gender)
 
-![Page 1](./screenshots/page1_churn_overview.png)
+![Page 1](https://github.com/darshinio-debug/customer-churn-analysis/blob/main/Executive%20Overview.png)
 
 ---
 
@@ -90,7 +85,7 @@ Analytical deep-dive. Shows WHO is churning and what profile they share.
 
 **Visuals:** Scatter Plot (Tenure vs Monthly Charges by Churn) · Payment Method Bar Chart · Senior Citizen Column Chart · High-Risk Customer Table · Slicers (Contract, Gender, Internet Service)
 
-![Page 2](./screenshots/page2_risk_segmentation.png)
+![Page 2](https://github.com/darshinio-debug/customer-churn-analysis/blob/main/Risk%20Segmentation.png)
 
 ---
 
@@ -99,7 +94,7 @@ Business action page. Converts analysis into financial impact and retention stra
 
 **Visuals:** Revenue Lost / At Risk / Retained KPI Cards · Churn by Tenure Bucket Line Chart · Revenue Impact Bar Chart · Churn Rate by Monthly Charge Band · Monthly Savings Gauge · Service Stickiness Matrix · Slicers (Contract, Tenure Bucket)
 
-![Page 3](./screenshots/page3_revenue_impact.png)
+![Page 3](https://github.com/darshinio-debug/customer-churn-analysis/blob/main/Revenue%20Impact.png)
 
 
 ---
@@ -151,6 +146,3 @@ Business action page. Converts analysis into financial impact and retention stra
 This project uses the publicly available IBM Telco Customer Churn dataset
 for educational/portfolio purposes.
 
----
-
-*Dataset source: IBM Telco Customer Churn — available publicly on Kaggle.*
