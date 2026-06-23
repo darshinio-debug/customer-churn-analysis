@@ -34,7 +34,7 @@ customer-churn-analysis/
 ├── README.md                          ← You are here
 │
 ├── /sql/
-│   ├── 01_overall_churn_rate.sql      ← SQL part
+│   ├── customer_churn.sql      ← SQL part
 │ 
 │
 ├── /data/
