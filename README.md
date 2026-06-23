@@ -1,10 +1,5 @@
 # 📊 Customer Churn Analysis Dashboard
 
-![SQL](https://img.shields.io/badge/SQL-Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Measures-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-
-> **Business Question:** *"Which customer segments are most at risk of churning, and how much revenue is at stake?"*
 
 An end-to-end data analytics project analyzing telecom customer churn using SQL Server and Power BI — identifying root causes, quantifying revenue impact, and surfacing high-risk customers for retention intervention.
 
